@@ -1,16 +1,13 @@
 import java.util.*;
 
-public class TestCar02 {
-	public static String name = "";
-	public static String color = "";
-	public static int year = 0;
+class Car {
+	// Fields
+	String name = "";
+	String color = "";
+	int year = 0;
 	
-	public static void main(String[] args) {
-		input();
-		output();
-	}
-
-	private static void input() {
+	// Methods
+	void input() {
 		// TODO Auto-generated method stub
 		System.out.println("값을 입력하세요(차이름 색상 연도)");
 		Scanner sc = new Scanner(System.in);
@@ -19,8 +16,21 @@ public class TestCar02 {
 		year = Integer.parseInt(sc.next());
 	}
 
-	private static void output() {
+	void info() {
 		// TODO Auto-generated method stub
-		System.out.println(name + color + year);
+		System.out.println("차이름 : " + name);
+		System.out.println("색상 : " + color);
+		System.out.println("연도 : " + year);
 	}
+}
+
+public class TestCar02 {
+	public static void main(String[] args) {
+		Car car1 = new Car();
+		car1.name = "아빠차";
+		car1.color = "Black";
+		car1.year = 2024;
+		car1.info();
+	}
+
 }
