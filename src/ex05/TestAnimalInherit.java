@@ -36,7 +36,6 @@ public class TestAnimalInherit {
 		Dog chu = new Dog();
 		chu.name = "츄";
 		chu.eat();
-		chu.work();
 		
 		Cat nero = new Cat();
 		nero.name = "네로";

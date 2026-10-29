@@ -28,7 +28,6 @@ public class TestDuckRacoon {
 		// TODO Auto-generated method stub
 		DuckRacoon dr = new DuckRacoon();
 		dr.swim();
-        }
 	}
 
 }
