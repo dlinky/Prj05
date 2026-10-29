@@ -14,6 +14,7 @@ class Car {
 		name = sc.next();
 		color = sc.next();
 		year = Integer.parseInt(sc.next());
+		sc.close();
 	}
 
 	void info() {

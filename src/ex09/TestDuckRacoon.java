@@ -1,5 +1,4 @@
 package ex09;
-import java.util.*;
 
 // class 다중상속
 // 오리너구리 class = 오리 class + 너구리 class

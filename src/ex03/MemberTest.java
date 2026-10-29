@@ -1,7 +1,5 @@
 package ex03;
 
-import java.time.LocalDate;
-
 /* RESCENE
 원이 리브 미나미 메이 제나
 2004 2006 2006 18 17 
